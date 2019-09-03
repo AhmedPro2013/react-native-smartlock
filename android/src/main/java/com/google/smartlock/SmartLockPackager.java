@@ -1,4 +1,4 @@
-package com.google.smartlock.smartlockrn;
+package com.google.smartlock;
 
 import android.app.Application;
 
