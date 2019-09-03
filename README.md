@@ -13,7 +13,7 @@ Add the project to your dependencies
 ```gradle
 dependencies {
 ...
-compile project(':react-native-smartlock')
+implementation project(':react-native-smartlock')
 }
 ```
 
@@ -30,7 +30,7 @@ project(':react-native-smartlock').projectDir = new File(rootProject.projectDir,
 Add:
 
 
-1. `import com.google.smartlock.smartlockrn.SmartLockPackager;`
+1. `import com.google.smartlock.SmartLockPackager;`
 
 2.  In the `getPackages()` method register the module:
 `new SmartLockPackager(MainApplication.this)`
